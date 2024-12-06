@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Particles -->
+    <div class="star"></div>
+
+    <!-- Main Content -->
+    <main>
+      <h1>Astro Calculator</h1>
+      <div class="container">
+        <input
+          id="user-weight"
+          class="input-text"
+          type="text"
+          placeholder="Input Your Weight"
+        />
+        <select id="planets" name="dropdown" class="dropdown"></select>
+        <button id="calculate-button" class="btn">Calculate</button>
+      </div>
+      <div id="result">
+        <p id="output" class="output"></p>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
